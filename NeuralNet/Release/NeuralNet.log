@@ -1,0 +1,9 @@
+﻿  EntityContainer.cpp
+c:\users\carl\source\repos\neuralnet_old\neuralnet\CoordinateManager.hpp(6): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+c:\users\carl\source\repos\neuralnet_old\neuralnet\CoordinateManager.hpp(7): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+EntityContainer.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+EntityContainer.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+EntityContainer.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+  Generating code
+  Finished generating code
+  NeuralNet.vcxproj -> C:\Users\Carl\source\repos\NeuralNet_old\Release\NeuralNet.exe

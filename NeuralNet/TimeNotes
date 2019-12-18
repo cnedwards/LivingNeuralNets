@@ -1,0 +1,2 @@
+Creatures start with 10800 hunger because it is 1 minute. 60*180=10800
+Food pellots restore 5 seconds of life, or 900 hunger.

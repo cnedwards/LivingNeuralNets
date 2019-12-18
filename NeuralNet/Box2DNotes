@@ -1,0 +1,15 @@
+Objects are positioned by their origins.
+Set objects according to their origins.
+
+Cartesian coordinates are used, so flip SFML setPositions.
+
+Meters are used so you have to /30 to convert to pixels from meters and when the library returns a value
+in meters *30 for pixels.
+
+Box2d world.queryAABB cannot be slanted, and entity vision is done by keeping the center of the vision 
+box on the line a certain distance from the entity.
+
+The world is expressed as a cartesian and flipped for rendering with SFML. The world is expressed in 
+pixels and then converted for box2d. Calculations involving the two should use those.
+
+AABB for queryWorld must be lowerBound in bottom left and upperBound in bottom right.

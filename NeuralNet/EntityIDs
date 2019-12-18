@@ -1,0 +1,14 @@
+0	Nothing
+1	Entity
+2	Monster
+3	Ramachandra
+4	Plant
+5	Kelp
+
+NOTE:
+Box2D has a collision callback system which I can use to do things in entities upon collisions. I attatch a copy of this pointer to the bodyDef.userData 
+I may scrap this entity system and use c++ typeID that I have recently learned about. It seems promising. http://en.wikipedia.org/wiki/Typeid
+
+TotalEntites: 5
+
+Update that in Entity.hpp

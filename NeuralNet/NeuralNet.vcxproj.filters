@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{e203b037-26e9-4d7c-9c7c-7376179b9ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Entity">
+      <UniqueIdentifier>{1e81895f-9456-42c6-949e-c431b7be0b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{bfd692b5-94de-426e-a41d-c4267b095f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Entity">
+      <UniqueIdentifier>{765e5bfe-7ade-4d18-83e9-b159bdeb67ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GUI">
+      <UniqueIdentifier>{82943a77-9962-427a-a76c-112558498dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\GUI">
+      <UniqueIdentifier>{d45b69ec-30cf-411b-a3d6-70038e15fa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\States">
+      <UniqueIdentifier>{ed93e791-6fe2-4ef7-8e22-ed140cab85d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Texture">
+      <UniqueIdentifier>{1fbff69e-1b2b-449c-bfa7-38cb0d036202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Texture">
+      <UniqueIdentifier>{09a3e9b9-fa6a-47f2-8189-ad5698161a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\States">
+      <UniqueIdentifier>{0404cb68-e2bd-454b-bfc5-cbfe394d2342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuralNetwork">
+      <UniqueIdentifier>{eff62fda-b371-498a-b48b-6a00912f1617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Entity\Populations">
+      <UniqueIdentifier>{a01e3d1e-ed0a-4da0-8b87-f3868f005d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Entity\Populations">
+      <UniqueIdentifier>{7ee8c31e-3c5a-4804-bd30-c5a6a57abc85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityContainer.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Ramachandra.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjustMiddleButton.cpp">
+      <Filter>Source Files\Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHolder.cpp">
+      <Filter>Source Files\Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Engine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Engine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork\Population.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork\NeuralNetwork.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork\Neuron.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork\Math.cpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Sight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="RamachandraPopulation.cpp">
+      <Filter>Source Files\Engine\Entity\Populations</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantContainer.cpp">
+      <Filter>Source Files\Engine\Entity\Populations</Filter>
+    </ClCompile>
+    <ClCompile Include="Kelp.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjustMiddleButton.hpp">
+      <Filter>Header Files\Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>Header Files\Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ramachandra.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>Header Files\Engine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>Header Files\Engine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityContainer.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Header Files\Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHolder.hpp">
+      <Filter>Header Files\Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyStructs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork\Math.hpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork\Population.hpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork\NeuralNetwork.hpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork\Neuron.hpp">
+      <Filter>NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeNotes" />
+    <ClInclude Include="EntityIDs" />
+    <ClInclude Include="Sight.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="RamachandraPopulation.hpp">
+      <Filter>Header Files\Engine\Entity\Populations</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantContainer.hpp">
+      <Filter>Header Files\Engine\Entity\Populations</Filter>
+    </ClInclude>
+    <ClInclude Include="Kelp.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Box2DNotes" />
+  </ItemGroup>
+</Project>
