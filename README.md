@@ -16,6 +16,7 @@ In the future, I'd like to change the AI portion of the algorithms to use what I
 ## Example
 Click the following picture for a video:
 [<img src="https://cnedwards.github.io/images/nn.jpg?raw=true" alt="Photo" style="width: 450px;"/> ](https://cnedwards.github.io/files/neuralnets_video.mp4)
+
 The green lights are turning lights. The pink lights are forward and backwards. The red bar is a health bar, and it turns yellow after the creature eats something. 
 
 ### Executable
