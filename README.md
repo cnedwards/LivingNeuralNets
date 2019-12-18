@@ -10,7 +10,7 @@ The project is written in Microsoft Visual Studio 2010. It has been tweaked to w
 The code depends on Box2D and SFML 2.1 (linked statically). Box2D is included in the repository, but SFML will need to be downloaded. 
 
 ## Future
-In the future, I'd like to change the AI portion of the algorithms to use what I've learned about modern reinforcement learning. I'd like to implement something like deep Q-learning (which didn't exist when I initially wrote this project). Furthermore, I would also like to increase the number of types of entities and what they eat. When I first envisioned this project (8th grade), I had envisioned making a small world. 
+In the future, I'd like to change the AI portion of the algorithms to use what I've learned about modern reinforcement learning. I'd like to implement something like deep Q-learning (which didn't exist when I initially wrote this project). Furthermore, I would also like to increase the number of types of entities and what they eat. When I first imagined this project (8th grade), I had envisioned making a small world. 
 
 
 ## Example
